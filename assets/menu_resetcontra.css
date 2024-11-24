@@ -1,0 +1,105 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo suave para el cuerpo */
+}
+
+header {
+    z-index: 10;
+    position: relative;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+/* Sección principal del formulario */
+.contenedor-validador {
+    margin: 20px auto;
+    margin-top: 280px; /* Adds space to separate from the header */
+    margin-bottom: 293px; /* Adds space to separate from the footer */
+    max-width: 600px; /* Limita el ancho máximo */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.contenedor-verificador {
+    margin: 20px auto;
+    margin-top: 321px; /* Adds space to separate from the header */
+    margin-bottom: 320px; /* Adds space to separate from the footer */
+    max-width: 600px; /* Limita el ancho máximo */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.contenedor-confirmador {
+    margin: 20px auto;
+    margin-top: 280px; /* Adds space to separate from the header */
+    margin-bottom: 288px; /* Adds space to separate from the footer */
+    max-width: 600px; /* Limita el ancho máximo */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.validar-codigo label,.email label {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.validar-codigo input,.email input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    padding: 12px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Verde más oscuro al pasar el mouse */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

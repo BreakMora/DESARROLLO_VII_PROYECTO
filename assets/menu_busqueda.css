@@ -1,0 +1,220 @@
+/* Contenedor principal de la sección */
+.contenido {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Espacio entre filtro y resultados */
+    justify-content: space-between;
+    margin-top: 105px; /* Ajusta según el alto del header para crear espacio */
+    margin-bottom: 40px; /* Asegúrate de que haya espacio antes del footer */
+    padding: 20px; /* Agrega algo de espacio interno si es necesario */
+}
+
+footer.footer {
+    margin-top: 20px; /* Espacio entre la sección de contenido y el footer */
+}
+
+/* Filtro de búsqueda */
+.filtro-busqueda {
+    width: 300px; /* Reducir el tamaño del filtro */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Espacio debajo del formulario de búsqueda */
+    display: flex; /* Asegura que los elementos internos sean flexibles */
+    flex-direction: column; /* Coloca los elementos en columna */
+    justify-content: space-between; /* Espacia los elementos, dejando el botón abajo */
+    height: 400px; /* Altura definida para el contenedor */
+    position: relative; /* Necesario para posicionar el botón relativo a este contenedor */
+}
+
+/* Título del formulario de búsqueda */
+.titulo-busqueda {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para cada campo de búsqueda */
+.tipo-busqueda,
+.precio_min-busqueda,
+.precio_max-busqueda {
+    margin-bottom: 20px; /* Espacio entre los campos */
+}
+
+/* Estilo para los labels */
+.tipo-busqueda label,
+.precio_min-busqueda label,
+.precio_max-busqueda label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Estilo para los select y input */
+select, input[type="number"] {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #fff; /* Fondo blanco */
+    transition: border-color 0.3s ease;
+}
+
+/* Cambio de color cuando el usuario interactúa con los campos */
+select:focus, input[type="number"]:focus {
+    border-color: #007BFF; /* Borde azul cuando está enfocado */
+    outline: none; /* Eliminar el borde por defecto */
+}
+
+/* Botón de búsqueda */
+.iniciar-busqueda button {
+    background-color: #007BFF; /* Color de fondo azul */
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    width: 100%; /* Asegura que el botón ocupe todo el ancho */
+    transition: background-color 0.3s ease;
+    align-self: center; /* Centra el botón horizontalmente */
+    margin-bottom: 10px; /* Agrega algo de espacio inferior */
+}
+
+/* Efecto de hover en el botón */
+.iniciar-busqueda button:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+}
+
+/* Estilo del contenedor de búsqueda */
+.contenedor-busqueda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Para que los elementos de búsqueda ocupen el 45% del ancho */
+.tipo-busqueda,
+.precio_min-busqueda,
+.precio_max-busqueda {
+    width: 60%;
+}
+
+/* Asegurarse de que los campos ocupen el 100% en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .tipo-busqueda,
+    .precio_min-busqueda,
+    .precio_max-busqueda {
+        width: 100%;
+    }
+
+    .iniciar-busqueda button {
+        width: 100%; /* Botón de búsqueda también ocupa todo el ancho en pantallas pequeñas */
+    }
+}
+
+/* Botón de búsqueda al final */
+.iniciar-busqueda {
+    margin-top: auto; /* Empuja el botón hacia abajo automáticamente */
+    display: flex; /* Centra el botón dentro del contenedor */
+}
+
+/* Contenedor de la búsqueda */
+.contenedor-busqueda {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Formulario de filtros */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo de las cards */
+.resultado-busqueda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px; /* Separar las cards del filtro */
+    margin-top: 20px; /* Espacio encima de los resultados de búsqueda */
+}
+
+/* Contenedor de habitaciones */
+.contenedor-habitaciones {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Ajusta las columnas automáticamente */
+    gap: 20px; /* Espacio entre las cards */
+    width: 100%;
+}
+
+/* Habitaciones */
+.habitacion {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto al pasar el ratón sobre la card */
+.habitacion:hover {
+    transform: translateY(-10px);
+}
+
+/* Imagen de la habitación */
+.habitacion-imagen img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Títulos y texto de las cards */
+.habitacion-nombre h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.habitacion-descripcion p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.habitacion-precio p,
+.habitacion-estado p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.habitacion-estado p {
+    font-weight: bold;
+}
+
+/* Botón de reserva */
+.reservar-busqueda .reservar-btn {
+    background-color: #da3b13;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.reservar-busqueda .reservar-btn:hover {
+    background-color: #8d250b;
+}

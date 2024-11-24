@@ -1,0 +1,99 @@
+/* General styles for the registration page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    z-index: 10;
+    position: relative;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+/* Centering the registration section */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 80px; /* Adds space to separate from the header */
+    margin-bottom: 30px; /* Adds space to separate from the footer */
+}
+
+/* Estilo general para el formulario */
+.titulo-datos {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contenedor-datos {
+    width: 100%;
+    max-width: 800px; /* Ajusta el ancho máximo del formulario */
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo suave para destacar el formulario */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+}
+
+.contenedor-datos form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaciado entre campos */
+}
+
+/* Estilo de cada grupo de datos */
+.contenedor-datos div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-datos label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contenedor-datos input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.contenedor-datos input:focus {
+    border-color: #4CAF50; /* Color de borde en foco */
+    outline: none; /* Elimina el borde azul estándar */
+}
+
+/* Botón de actualización */
+.actualizar-datos button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.actualizar-datos button:hover {
+    background-color: #45a049; /* Verde más oscuro al pasar el mouse */
+}
+
+/* Espaciado entre el título y el formulario */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}

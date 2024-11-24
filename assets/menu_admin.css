@@ -1,0 +1,140 @@
+.contenedor-datos{
+    margin-top: 90px; /* Ajusta según el alto del header para crear espacio */
+    margin-bottom: 40px; /* Asegúrate de que haya espacio antes del footer */
+    min-height: calc(100vh - 150px); /* Ajusta 150px a la altura combinada de header y footer */
+    padding: 20px;
+    box-sizing: border-box; /* Asegura que padding no expanda el contenedor */
+    display: flex;
+    flex-direction: column; /* Organiza elementos verticalmente */
+    gap: 20px; /* Espaciado entre las tablas o elementos */
+}
+
+.contenedor-datos > table {
+    margin: 0 auto; /* Centra las tablas si hay espacio adicional */
+    max-width: 100%; /* Asegura que las tablas no excedan el ancho del contenedor */
+}
+
+.contenedor-datos > p {
+    text-align: center; /* Centra el mensaje de "sin datos", si aplica */
+    color: #555; /* Estilo adicional para texto */
+}
+
+/* Estilo general para tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Encabezados de las tablas */
+th {
+    background-color: #007BFF; /* Azul moderno */
+    color: white;
+    text-align: left;
+    padding: 12px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/* Celdas de las tablas */
+td {
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* Filas alternadas */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+/* Imágenes en las tablas */
+.habitacion-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Botones de acciones */
+.acciones {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    opacity: 0.9;
+}
+
+.editar {
+    background-color: #4CAF50; /* Verde */
+}
+
+.eliminar {
+    background-color: #f44336; /* Rojo */
+}
+
+/* Títulos y subtítulos */
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 20px 0;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #555;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+/* Estilo para los botones de navegación de las pestañas */
+div[role="tablist"] button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+div[role="tablist"] button[aria-selected="true"] {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+div[role="tablist"] button:hover {
+    background-color: #007BFF;
+    color: white;
+}

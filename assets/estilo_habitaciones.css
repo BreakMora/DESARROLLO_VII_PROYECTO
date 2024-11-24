@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.habitaciones-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    
+}
+
+.habitacion {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+    transition: transform 0.2s;
+}
+
+.habitacion:hover {
+    transform: scale(1.05);  /* Agregar zoom en hover */
+}
+
+.habitacion-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    max-height: 250px; /* Limitar la altura máxima de la imagen */
+    object-fit: cover; 
+    border: 1px solid red;
+}
+
+button.reservar-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.reservar-btn:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .habitacion {
+        width: 45%;  /* Acomodar para pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .habitacion {
+        width: 100%;  /* Hacer las habitaciones más grandes en pantallas pequeñas */
+    }
+}

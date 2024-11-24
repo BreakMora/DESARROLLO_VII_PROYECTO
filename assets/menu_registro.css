@@ -1,0 +1,89 @@
+/* General styles for the registration page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    z-index: 10;
+    position: relative;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+/* Centering the registration section */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 60px; /* Adds space to separate from the header */
+    margin-bottom: 30px; /* Adds space to separate from the footer */
+}
+
+/* Title for the registration page */
+.titulo-registro {
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Container for the registration form */
+.contenedor-registro {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Style for each registration input */
+.nombre-registro, .apellido-registro, .email-registro, .telefono-registro, .direccion-registro, .contrasena-registro, .contrasena_confirm-registro {
+    margin-bottom: 20px;
+}
+
+.nombre-registro label, .apellido-registro label, .email-registro label, .telefono-registro label, .direccion-registro label, .contrasena-registro label, .contrasena_confirm-registro label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.nombre-registro input, .apellido-registro input, .email-registro input, .telefono-registro input, .direccion-registro input, .contrasena-registro input, .contrasena_confirm-registro input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.nombre-registro input:focus, .apellido-registro input:focus, .email-registro input:focus, .telefono-registro input:focus, .direccion-registro input:focus, .contrasena-registro input:focus, .contrasena_confirm-registro input:focus {
+    outline: none;
+    border-color: #5c8f5c; /* Add a focus color for inputs */
+}
+
+/* Submit button for registration */
+.iniciar-registro button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5c8f5c;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.iniciar-registro button:hover {
+    background-color: #4d7b4d; /* Change button color on hover */
+}

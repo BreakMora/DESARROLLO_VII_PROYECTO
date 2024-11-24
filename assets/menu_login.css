@@ -1,0 +1,103 @@
+/* General styles for the login page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering the login section */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust to your liking */
+    padding: 20px;
+}
+
+footer.footer {
+    margin-top: 3px; /* Espacio entre la sección de contenido y el footer */
+}
+
+/* Title for the login page */
+.titulo-login {
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Container for the login form */
+.contenedor-login {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Style for each login input */
+.email-login, .password-login {
+    margin-bottom: 20px;
+}
+
+.email-login label, .password-login label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.email-login input, .password-login input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.email-login input:focus, .password-login input:focus {
+    outline: none;
+    border-color: #5c8f5c; /* Add a focus color for inputs */
+}
+
+/* Submit button for login */
+.iniciar-login input {
+    width: 100%;
+    padding: 12px;
+    background-color: #5c8f5c;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.iniciar-login input:hover {
+    background-color: #4d7b4d; /* Change button color on hover */
+}
+
+/* Additional information below the form */
+.contenedor-informacion {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contenedor-informacion p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.contenedor-informacion a {
+    color: #5c8f5c;
+    text-decoration: none;
+}
+
+.contenedor-informacion a:hover {
+    text-decoration: underline;
+}

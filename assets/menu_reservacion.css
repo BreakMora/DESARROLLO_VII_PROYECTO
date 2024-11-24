@@ -1,0 +1,95 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo suave para el cuerpo */
+}
+
+/* Sección principal */
+section {
+    margin: 20px auto;
+    margin-top: 155px; /* Adds space to separate from the header */
+    margin-bottom: 86px; /* Adds space to separate from the footer */
+    max-width: 900px; /* Limita el ancho máximo */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+
+table td img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+strong {
+    color: #333;
+}
+
+/* Estilo para los inputs de fecha */
+input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilo para el botón de confirmación */
+.reservar-habitacion {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reservar-habitacion button {
+    padding: 12px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reservar-habitacion button:hover {
+    background-color: #45a049; /* Verde más oscuro al pasar el mouse */
+}
+
+/* Estilo de los mensajes de costo total */
+#costo_total {
+    font-weight: bold;
+    color: #4CAF50; /* Verde */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

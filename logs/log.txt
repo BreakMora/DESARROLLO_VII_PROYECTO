@@ -1,0 +1,233 @@
+[2024-11-17 05:42:11] Correo de recuperación enviado, verifica tu bandeja de entrada
+[2024-11-17 05:42:36] Contraseña cambiada exitosamente.
+[2024-11-17 06:57:47] Error de conexión con la base de datos.
+[2024-11-17 06:59:32] Usuario registrado exitosamente.
+[2024-11-17 07:54:25] Correo de recuperación enviado, verifica tu bandeja de entrada
+[2024-11-17 07:54:44] Contraseña cambiada exitosamente.
+[2024-11-17 07:57:54] Error: Contraseña incorrecta para el email: 
+[2024-11-17 07:59:00] Error: Contraseña incorrecta para el email: 
+[2024-11-17 08:05:11] Error: El campo 'email' vacío.
+[2024-11-17 08:05:22] Error: El campo 'contrasena' vacío.
+[2024-11-17 08:05:35] Error: Los campos no pueden estar vacíos.
+[2024-11-17 08:05:45] Correo de recuperación enviado, verifica tu bandeja de entrada
+[2024-11-17 08:07:17] Contraseña cambiada exitosamente.
+[2024-11-17 08:10:30] Correo de recuperación enviado, verifica tu bandeja de entrada
+[2024-11-17 08:10:38] Error: Uno de los campo esta vacío.
+[2024-11-17 08:10:50] Error: Uno de los campo esta vacío.
+[2024-11-17 08:10:56] Error: Uno de los campo esta vacío.
+[2024-11-17 08:11:03] Contraseña cambiada exitosamente.
+[2024-11-17 21:21:07] Usuario registrado exitosamente.
+[2024-11-17 22:34:27] Correo de recuperación enviado, verifica tu bandeja de entrada
+[2024-11-17 22:35:09] Contraseña cambiada exitosamente.
+[2024-11-17 23:21:50] Error: Contraseña incorrecta para el email: 
+[2024-11-18 01:57:37] Error: Contraseña incorrecta para el email: edgar07mora17@gmail.com
+[2024-11-19 01:19:34] Advertencia: Intento de acceso a reservaciones sin iniciar sesión.
+[2024-11-19 01:19:52] Advertencia: Intento de acceso a reservaciones sin iniciar sesión.
+[2024-11-19 01:21:04] Advertencia: Intento de acceso a reservaciones sin iniciar sesión.
+[2024-11-19 01:21:18] Advertencia: Intento de acceso a reservaciones sin iniciar sesión.
+[2024-11-19 03:46:48] Advertencia: No se encontraron habitaciones según los filtros seleccionados.
+[2024-11-19 03:46:52] Advertencia: No se encontraron habitaciones según los filtros seleccionados.
+[2024-11-19 03:46:56] Advertencia: No se encontraron habitaciones según los filtros seleccionados.
+[2024-11-19 03:47:01] Advertencia: No se encontraron habitaciones según los filtros seleccionados.
+[2024-11-19 03:47:07] Advertencia: No se encontraron habitaciones según los filtros seleccionados.
+[2024-11-19 03:48:22] Advertencia: No se encontraron habitaciones según los filtros seleccionados.
+[2024-11-19 03:48:24] Advertencia: No se encontraron habitaciones según los filtros seleccionados.
+[2024-11-19 03:51:40] Advertencia: No se encontraron habitaciones según los filtros seleccionados.
+[2024-11-19 04:55:50] Error: Excepción al intentar obtener los detalles de la habitación. E: Unknown column 'id' in 'where clause'
+[2024-11-19 04:56:02] Error: Excepción al intentar obtener los detalles de la habitación. E: Unknown column 'id' in 'where clause'
+[2024-11-19 04:57:00] Advertencia: No se encontró la habitación con ID 0.
+[2024-11-19 04:59:04] Advertencia: No se encontró la habitación con ID .
+[2024-11-20 01:49:00] Error: Contraseña incorrecta para el email: edgar07mora17@gmail.com
+[2024-11-21 01:58:10] Error: Contraseña incorrecta para el email: amilcar07mora@gmail.com
+[2024-11-21 05:27:50] Excepción: no se pudo eliminar el cliente Unknown column 'cliente_id' in 'where clause'
+[2024-11-21 05:27:55] Excepción: no se pudo eliminar el cliente Unknown column 'cliente_id' in 'where clause'
+[2024-11-21 05:32:21] Correo de recuperación enviado, verifica tu bandeja de entrada
+[2024-11-23 04:11:27] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 04:14:29] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:14:54] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 04:20:19] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:20:36] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:21:33] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 04:27:52] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 04:42:43] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 04:44:21] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 04:46:43] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 04:46:48] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 04:47:06] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:47:13] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:47:38] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:47:57] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:48:08] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:48:25] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:48:32] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:48:39] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:48:52] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:49:20] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:49:38] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:49:43] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:50:29] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:50:37] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:51:01] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:51:03] Advertencia: Intento de acceso a reservaciones sin iniciar sesión.
+[2024-11-23 04:51:25] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:52:14] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:55:14] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:55:25] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:55:29] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:56:09] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:56:27] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:57:00] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:57:36] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:58:13] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 04:58:20] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 05:00:07] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 05:01:00] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 05:01:05] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 05:01:17] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 05:01:28] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 05:02:07] Advertencia: Intento de acceso a reservaciones sin iniciar sesión.
+[2024-11-23 05:02:09] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 05:02:18] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 05:03:16] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 05:03:19] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 05:03:21] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 05:03:44] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 05:04:42] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 05:05:04] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 05:05:19] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 05:05:29] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 05:05:31] Advertencia: Intento de acceso a reservaciones sin iniciar sesión.
+[2024-11-23 05:12:13] Error: Parámetros de ID de habitacion no proporcionados EditarHabitacion.php.
+[2024-11-23 05:12:53] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:13:25] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:13:47] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:14:29] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:15:36] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:15:50] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:17:32] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:18:18] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:19:05] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:19:23] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:20:08] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:24:16] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:27:58] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:32:39] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:34:20] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:34:29] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:35:05] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:35:29] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:35:48] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:43:40] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacionAdmin.php.
+[2024-11-23 05:43:40] Debug: ID recibido -> Ninguno
+[2024-11-23 05:44:40] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacionAdmin.php.
+[2024-11-23 05:44:40] Debug: ID recibido -> Ninguno
+[2024-11-23 05:46:19] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:47:29] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 05:52:47] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 05:53:14] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 05:53:41] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 05:53:55] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 05:54:16] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 05:55:56] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 05:58:32] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 05:59:02] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 06:00:20] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 06:01:36] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 06:01:58] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-23 06:06:30] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 06:08:06] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 06:09:50] Error: Parámetros de ID de habitacion no proporcionados controller/EditarHabitacion.php.
+[2024-11-23 06:40:19] Excepción: Error al actualizar la habitación Truncated incorrect DOUBLE value: 'sencilla'
+[2024-11-23 06:40:35] Excepción: Error al actualizar la habitación Truncated incorrect DOUBLE value: 'sencilla'
+[2024-11-23 06:41:26] Excepción: Error al actualizar la habitación Truncated incorrect DOUBLE value: 'sencilla'
+[2024-11-23 07:28:42] Error: Parámetros de ID de habitacion no proporcionados controller/EditarUsuariosAdmin.php.
+[2024-11-23 07:30:44] Error: Parámetros de ID de cliente no proporcionados controller/EditarUsuariosAdmin.php.
+[2024-11-23 07:32:44] Error: Parámetros de ID de cliente no proporcionados controller/EditarUsuariosAdmin.php.
+[2024-11-23 07:35:45] Error: Parámetros de ID de cliente no proporcionados controller/EditarUsuariosAdmin.php.
+[2024-11-23 21:43:19] Advertencia: Intento de acceso a reservaciones sin iniciar sesión.
+[2024-11-23 21:45:40] Advertencia: Intento de acceso a reservaciones sin iniciar sesión.
+[2024-11-24 00:39:45] Advertencia: Intento de acceso a reservaciones sin iniciar sesión.
+[2024-11-24 01:29:55] Error: Contraseña incorrecta para el email: amilcar07mora@gmail.com
+[2024-11-24 02:40:46] Advertencia: No se encontró la habitación con ID 0.
+[2024-11-24 02:40:49] Advertencia: No se encontró la habitación con ID 0.
+[2024-11-24 02:41:33] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-24 02:41:36] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-24 02:41:47] Error: Intento de acceso no autorizado sin sesión activa.
+[2024-11-24 03:05:51] Correo de recuperación enviado, verifica tu bandeja de entrada
+[2024-11-24 03:06:22] Éxito: La contraseña se ha cambiado correctamente para el usuario con correo edgar07mora17@gmail.com.
+[2024-11-24 03:07:07] Correo de recuperación enviado, verifica tu bandeja de entrada
+[2024-11-24 03:07:26] Correo de recuperación enviado, verifica tu bandeja de entrada
+[2024-11-24 03:16:36] Correo de recuperación enviado, verifica tu bandeja de entrada
+[2024-11-24 04:09:59] Advertencia: El usuario : Edgar, con ID: 1, no tiene permiso para entrar a este archivo.
+[2024-11-24 04:15:18] Advertencia: Intento de acceso a reservaciones sin iniciar sesión.
+[2024-11-24 04:15:43] Advertencia: Intento de acceso a reservaciones sin iniciar sesión.
+[2024-11-24 04:17:33] Advertencia: El usuario : Edgar, con ID: 1, no tiene permiso para entrar a este archivo.
+[2024-11-24 04:17:39] Advertencia: El usuario : Edgar, con ID: 1, no tiene permiso para entrar a este archivo.
+[2024-11-24 04:17:45] Advertencia: El usuario : Edgar, con ID: 1, no tiene permiso para entrar a este archivo.
+[2024-11-24 04:18:05] Advertencia: El usuario : Edgar, con ID: 1, no tiene permiso para entrar a este archivo.
+[2024-11-24 04:18:33] Advertencia: No se encontro el rol definido para el usuario: Edgar
+[2024-11-24 04:18:34] Advertencia: No se encontro el rol definido para el usuario: Edgar
+[2024-11-24 04:18:37] Advertencia: No se encontro el rol definido para el usuario: Edgar
+[2024-11-24 04:18:52] Advertencia: El usuario : Edgar, con ID: 1, no tiene permiso para entrar a este archivo.
+[2024-11-24 04:19:45] Advertencia: No se encontro el rol definido para el usuario: Edgar
+[2024-11-24 04:20:04] Advertencia: El usuario : Edgar, con ID: 1, no tiene permiso para entrar a este archivo.
+[2024-11-24 04:20:19] Advertencia: No se encontro el rol definido para el usuario: Edgar
+[2024-11-24 04:20:57] Advertencia: No se encontro el rol definido para el usuario: Edgar
+[2024-11-24 04:23:17] Advertencia: No se encontro el rol definido para el usuario: Amilcar
+[2024-11-24 04:24:56] Advertencia: No se encontro el rol definido para el usuario: Edgar
+[2024-11-24 04:25:36] Advertencia: No se encontro el rol definido para el usuario: Edgar
+[2024-11-24 04:26:17] Advertencia: No se encontro el rol definido para el usuario: Edgar
+[2024-11-24 04:26:31] Advertencia: No se encontro el rol definido para el usuario: Edgar
+[2024-11-24 04:29:42] Error: Contraseña incorrecta para el email: amilcar07mora@gmail.com
+[2024-11-24 04:29:56] Advertencia: No se encontro el rol definido para el usuario: Amilcar
+[2024-11-24 04:32:37] Advertencia: El usuario : Edgar, con ID: 1, no tiene permiso para entrar a este archivo.
+[2024-11-24 04:36:27] Error: El email ingresado no pertenece a ninguna cuenta de cliente registrada.
+[2024-11-24 04:37:09] Advertencia: El usuario : Edgar, con ID: 1, no tiene permiso para entrar a este archivo.
+[2024-11-24 04:40:28] Advertencia: El usuario : Edgar, con ID: 1, acceso no permitido.
+[2024-11-24 04:40:58] Advertencia: El usuario : Edgar, con ID: 1, acceso no permitido.
+[2024-11-24 04:41:26] Error: Intento de acceso de negado.
+[2024-11-24 04:54:08] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 04:56:51] Error: El campo 'contrasena' vacío.
+[2024-11-24 04:57:56] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 05:00:17] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 05:02:22] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 05:06:23] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 06:12:02] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 06:12:08] Acceso: administrador Amilcar.
+[2024-11-24 06:12:13] Error: Datos inválidos o campos vacíos al actualizar la habitación.
+[2024-11-24 06:12:13] Acceso: administrador Amilcar.
+[2024-11-24 06:12:18] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 06:12:28] Acceso: administrador Amilcar.
+[2024-11-24 06:14:43] Error: Datos inválidos o campos vacíos al actualizar la habitación.
+[2024-11-24 06:14:43] Acceso: administrador Amilcar.
+[2024-11-24 06:14:51] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 06:14:59] Acceso: administrador Amilcar.
+[2024-11-24 06:15:04] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 06:16:00] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 06:16:14] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 06:21:31] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 06:21:36] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 06:22:46] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 06:22:49] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 06:23:06] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 12:30:49] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 12:30:57] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 14:12:29] Usuario registrado exitosamente.
+[2024-11-24 14:12:34] Inicio de sesión exitoso para: elbichoedgarmora@gmail.com
+[2024-11-24 14:14:51] Error: Contraseña incorrecta para el email: amilcar07mora@gmail.com
+[2024-11-24 14:14:57] Error: Contraseña incorrecta para el email: amilcar07mora@gmail.com
+[2024-11-24 14:15:12] Error: Contraseña incorrecta para el email: amilcar07mora@gmail.com
+[2024-11-24 14:15:51] Error: Contraseña incorrecta para el email: edgar07mora17@gmail.com
+[2024-11-24 14:17:08] Correo de recuperación enviado, verifica tu bandeja de entrada
+[2024-11-24 14:17:23] Error: No se pudo actualizar la contraseña para el usuario con correo edgar07mora17@gmail.com. Inténtalo de nuevo más tarde.
+[2024-11-24 14:17:36] Error: Contraseña incorrecta para el email: edgar07mora17@gmail.com
+[2024-11-24 14:21:20] Correo de recuperación enviado, verifica tu bandeja de entrada
+[2024-11-24 14:21:29] Éxito: La contraseña se ha cambiado correctamente para el usuario con correo edgar07mora17@gmail.com.
+[2024-11-24 14:21:33] Inicio de sesión exitoso para: edgar07mora17@gmail.com
+[2024-11-24 14:37:42] Inicio de sesión exitoso para: amilcar07mora@gmail.com
+[2024-11-24 14:37:43] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 14:37:54] Acceso: administrador Amilcar.
+[2024-11-24 14:37:56] Cliente con ID 1 actualizado correctamente.
+[2024-11-24 14:37:57] Inicio de sesion: por administrador Amilcar.
+[2024-11-24 15:01:29] Error: Contraseña incorrecta para el email: amilcar07mora@gmail.com
+[2024-11-24 15:01:34] Inicio de sesión exitoso para: amilcar07mora@gmail.com

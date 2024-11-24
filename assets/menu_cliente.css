@@ -1,0 +1,131 @@
+.contenido-perfil {
+    margin-top: 100px;
+}
+
+/* Contenedor principal de las habitaciones */
+.habitaciones-container {
+    display: flex; /* Usamos flex para alinear las cards horizontalmente */
+    flex-wrap: wrap; /* Permite que las cards bajen de línea si no caben */
+    justify-content: center; /* Centra las cards horizontalmente */
+    gap: 20px; /* Espacio entre las cards */
+    padding: 20px; /* Espaciado interno para evitar solapamientos */
+    margin-top: 20px; /* Espacio entre el header y la sección */
+}
+
+/* Cada card de habitación */
+.habitacion {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px; /* Tamaño fijo pero compacto */
+    height: 500px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover en la card */
+.habitacion:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagen de la habitación */
+.habitacion-imagen {
+    width: 100%;
+    height: 150px; /* Altura más compacta */
+    overflow: hidden;
+}
+
+.habitacion-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen al contenedor */
+}
+
+/* Nombre de la habitación */
+.habitacion-nombre {
+    font-size: 20px; /* Tamaño más grande */
+    font-weight: bold;
+    color: #333;
+    margin: 10px 15px 5px;
+    text-align: center;
+}
+
+/* Descripción de la habitación */
+.habitacion-descripcion {
+    font-weight: bold;
+    font-size: 16px;
+    color: #666;
+    margin: 0 15px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Detalles adicionales */
+.habitacion-tipo,
+.habitacion-precio,
+.habitacion-fecha_entrada,
+.habitacion-fecha-salida,
+.habitacion-costo {
+    font-weight: bold;
+    font-size: 16px;
+    color: #444;
+    margin: 5px 10px;
+    line-height: 1.5; /* Espaciado entre líneas para mayor legibilidad */
+}
+
+/* Negrita para títulos */
+.habitacion-tipo strong,
+.habitacion-precio strong,
+.habitacion-fecha_entrada strong,
+.habitacion-fecha-salida strong,
+.habitacion-costo strong {
+    color: #007BFF; /* Azul para resaltar */
+}
+
+/* Mensaje de habitaciones vacías */
+.contenido-perfil p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Título de la sección */
+.titulo-perfil,
+.sutitulo-perfil {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+.titulo-perfil h2,
+.sutitulo-perfil h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Espaciado entre header, sección y footer */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    flex-shrink: 0; /* Evita que el header colapse con otros elementos */
+}
+
+section {
+    flex: 1; /* Se expande para ocupar el espacio disponible */
+    margin-bottom: 20px; /* Espacio adicional con el footer */
+}
+
+footer {
+    flex-shrink: 0; /* Mantiene el footer siempre visible */
+    margin-top: 20px;
+}
